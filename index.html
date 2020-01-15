@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    
+  <div class="wrapper flexbox"> 
+
+
+    <header class="flexbox">  
+
+
+         <div class="socialbar "> </div>
+
+         <div class="logo">  </div>
+
+
+<!-- navbar start -->
+
+    <div onclick="navbartoggle()" id="togglediv" class="menu-toggle">  </div>      <!-- menu kecisi -->
+
+        <nav id="navbar">        
+            
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropbtn active">Ana sehife<i class="fas fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+        
+            </div>
+   </li>
+           
+          <li class="dropdown">
+            <a href="#" class="dropbtn ">Forum<i class="fas fa-angle-down"></i></a>
+            <div class="dropdown-content">
+        
+              <a href="#">Link1</a>
+              <a href="#">Link1</a>
+              <a href="#">Link1</a>
+
+            
+                <!-- fa-chevron-right -->
+             
+              
+            </div>
+          </li>
+
+        
+          <li class="dropdown">
+            <a href="#" class="dropbtn ">Portfolio<i class="fas fa-angle-down"></i></a>
+            <div class="dropdown-content">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+            </div>
+          </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropbtn ">Sehifeler<i class="fas fa-angle-down"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropbtn ">Cesidler<i class="fas fa-angle-down"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+              </div>
+            </li>
+
+
+
+          <li> <a href="#">bizimlə əlaqə<i class="fas fa-angle-down"></i></a> </li>
+
+
+          <li> <a href="#">haqqımızda<i class="fas fa-angle-down"></i></a>    </li>
+
+      
+
+        </ul>
+
+           </nav>  
+ 
+           <script>
+           window.onscroll = function() {myFunction()};
+
+           var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+        function myFunction() 
+        {
+
+        if (window.pageYOffset >= sticky)
+      {
+            navbar.classList.add("sticky")
+      } 
+      else
+      {
+           navbar.classList.remove("sticky");
+      }
+
+       }
+           
+           </script>
+        
+
+<!-- navbar end -->
+
+    </header>
+
+
+    <main class="flexbox" >
+
+    <img src="data:image/jpeg;base64,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" alt="">
+    </main>
+
+
+
+
+    <footer>
+
+
+      <div class="footer-box1"> 
+
+
+      <div class="footer-box1-item"> <!-- footerbox item 1 -->
+        
+       <img src="/images/logo-white-footer.png" alt="" class="logo-img">
+       
+       <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+
+         <div class="little-section"> <i class="fas fa-phone-alt"></i>   <p> 123-456-789</p> </div>  
+          
+          <div class="little-section"><i class="far fa-envelope"></i> <p>brogrammers@gmail.com</p> </div>
+
+          <div class="little-section"><i class="fas fa-globe"></i> <a> www.brogrammers.com </a> </div>
+
+
+
+      </div>  <!-- footerbox item 1 -->
+
+
+
+      <div class="footer-box1-item"><!-- footerbox item 2 -->
+        <h4> Useful Links </h4>
+       <div class="useful-link"> <a href="#">about us</a>  </div>
+       <div class="useful-link">  <a href="#">best rating teachers</a> </div>
+       <div class="useful-link"> <a href="#">best rating courses</a>  </div>
+       <div class="useful-link"> <a href="#">bla bla bla</a>  </div>
+       <div class="useful-link"> <a href="#">bla bla bla</a>  </div>
+       <div class="useful-link"> <a href="#">bla bla bla</a>  </div>
+
+        
+      </div> <!-- footerbox item 2 -->
+
+
+
+
+      <div class="footer-box1-item"> <!-- footerbox item 3 -->
+        <h4> social feeds </h4>
+        
+        <div class="footer-feed-area"> 
+
+   
+          <div class="flexbox little-area">  
+
+          <i class="fab fa-twitter" id="little-area-i"></i>
+
+           <p class="feed-text">Design language can get pretty tricky to explain,
+              especially to non-designers. To help unravel some of it,… </p>
+          </div>
+
+          <div class="little-area2"> 
+
+       <a href="">https://t.co/9VmtAOrYtV</a> 
+
+            <p class="feed-time">Jan, 2, 2020 </p> 
+          </div>
+
+        </div>
+
+
+        <div class="footer-feed-area"> 
+
+   
+          <div class="flexbox little-area">  
+
+          <i class="fab fa-twitter" id="little-area-i"></i>
+
+           <p class="feed-text">Design language can get pretty tricky to explain,
+              especially to non-designers. To help unravel some of it,… </p>
+          </div>
+
+          <div class="little-area2"> 
+
+       <a href="">https://t.co/9VmtAOrYtV</a> 
+
+            <p class="feed-time">Jan, 2, 2020 </p> 
+          </div>
+
+        </div>
+       
+
+
+      </div><!-- footerbox item 3 -->
+
+
+
+
+      <div class="footer-box1-item"><!-- footerbox item 4 -->
+        <h4>that is fourth box </h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      
+   
+     
+      </div><!-- footerbox item 4 -->
+
+
+
+      </div>
+
+       <!-- footer box 1 end  -->
+
+
+      <div class="flexbox footer-box2"> 
+
+      
+      <div class="footer-box2-section1"> 
+        <h4> Call Us Now</h4>
+
+        <p>+994 77 498 1499</p>
+        <p>+994 77 498 1499</p>
+
+
+      </div>
+      <!-- section 1 end  -->
+
+
+
+      <div class="footer-box2-section2"> 
+       
+        <h4>connect with us</h4>
+
+      </div>
+
+      <!-- section 2 end  -->
+
+      <div class="footer-box2-section3">     <h4>subscribe us</h4>  
+      
+
+        <div class="flexbox"> 
+ 
+           <input type="text" class="get-email-input" placeholder="Your Email">  <button type="submit" class="get-email-button">Subscribe</button>
+
+        </div>
+      
+      
+      </div>
+
+      </div>
+
+
+
+      <!-- footer box 2 end -->
+
+
+
+
+
+      <div class="flexbox footer-box3"> 
+     
+        <div class="copyright"> copyright 2020 Developed(ekilib) by Aydin all rights reserved</div>
+       
+        <div class="flexbox customer-help"> 
+          <div > <a href=""> privacy and terms </a></div>
+          <div class="help-link"><a href="">help</a> </div>
+          <div ><a href="">support</a> </div>
+        </div>
+ 
+      </div>
+
+
+     
+      
+
+
+    </footer>
+
+
+  </div>
+
+
+
+<script src="/script.js"> 
+
+
+
+
+</script>
+
+
+</body>
+</html>
