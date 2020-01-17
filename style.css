@@ -447,6 +447,7 @@ cursor: pointer;
 }
 .social-icon-box:hover{
   background-color: rgba(155, 155, 155, 0.5);
+  transition: 300ms;
 
 }
 
