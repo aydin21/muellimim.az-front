@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alan1 p{ 
+        font-size: 15px;
+        color:white;
+        background-color: transparent;
+        padding-left: 0;
+        text-align: left;
+        margin-left:8rem;
+        display:inline;
+        font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+     
+}
+
+
+.alan1 h1{
+    color: white;
+    text-align: left;
+    padding-top:8rem ;
+    padding-left: 14rem;
+    padding-bottom: 3rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.alan1 {
+   border-top: 2px solid red;
+}
+
+.flex-container{
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+.flex-container > div{
+    margin-left: 3rem;
+}
+.flex-container >div>p{
+    font-size: 17px;
+    font-family:"Opens Sans"sans-serif;
+    margin-top: 2rem;
+    text-align: unset;
+
+}
+
+.flex-container >div>h3{
+    color: red;
+    font-weight: 0.5rem;
+    
+}
+.flex-container .ic-on >i{
+    display: inline-block;
+    margin-top:1rem;
+    font-size:2rem;
+    background-color:#202C45; 
+    color: white;
+    background-size: 2.5rem;
+    margin-left:0.5rem;
+    padding: 0.5rem;
+ 
+}
+.flexbox{
+    display: flex;
+    flex-direction:row;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  
+}
+
+.flexbox >div.{
+    display: flex;
+    flex-direction: column;
+}
+.button1{
+    background:#202C45;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px;
+    color:#fff;
+    cursor: pointer;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left:4% ;
+    margin-top: 2%;
+    
+    
+}
+
+.button1:hover{
+
+    background:rgb(18, 22, 32);
+}
+
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    color:#202C45;
+    margin-top:0.9rem;
+    padding:0;
+    margin-right: 0%;
+    margin-left: 4%;
+    height: 2.5rem;
+    width: 0 auto;
+    
+}
+
+.flexbox textarea{
+    margin-top: 0.9rem;
+    margin-left: 4%;
+    margin-right: 0%;
+    width: 80%;
+}
+.flexbox>div> p{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    color: #333333;
+    font-family: "Open Sans"sans-serif;
+    
+}
+
+.flex-box div{
+    border: 0px solid;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: #F5F5F5;
+    margin-right: 2rem;
+   
+
+}
+
+.flex-box >div>p{
+    font-size: 1rem;
+    color: #666666;
+    text-align: justify;
+     
+}
+
+.flex-box >div>i{
+
+  color: #202C45;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width:1200px){
+   
+    .flexbox {
+        display:block;
+        
+        
+    }
+    input{
+     
+        margin-right: 0%;
+       
+        margin-top: 3%;
+        width: 80%;
+        border: 1px black solid;
+        
+    }
+    .flexbox textarea{
+        
+        border: 1px solid;
+    }
+    .button1{
+        
+        margin-left:5% ;
+        margin-top: 2%;
+        cursor: pointer;
+        width: 280px;
+        font-size: 25px;
+   
+    }
+    .flexbox>div>p{
+
+        margin-left:5%;
+
+    }
+    .flexbox >div.{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .flex-container{
+        display:block;
+        
+    }
+    .flex-container > div>img{
+        margin-left:0rem;
+        margin-right:2rem;
+        width: 100%;
+        height: 100%;
+    }
+    .flex-container >div>p>i{
+        
+        font-size:4rem;
+        background-color:#202C45; 
+        color: white;
+        background-size: 2rem;
+        margin-left:0.5rem;
+        padding: 1%;
+        display: inline;
+    
+    }
+    
+    
+    .flex-container >div>h1{
+        font-weight: 0.5rem;
+        margin-top: 2rem;
+        
+    }
+    .alan1>div>img   {
+
+        height: 100%;
+    }
+    .alan1 p{ 
+        font-size:35px;
+        color:white;
+        background-color: transparent;
+        padding-left: 0;
+        text-align: left;
+        margin-left:8rem;
+        display:inline;
+        font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+     
+}
+
+.flex-container .ic-on >i{
+    display: inline-block;
+    margin-top:1rem;
+    font-size:2rem;
+    background-color:#202C45; 
+    color: white;
+    background-size: 2rem;
+    padding:2rem;
+    text-align: center;
+ 
+}
+}

@@ -41,6 +41,7 @@
 
 header{
 flex-direction: column;
+background-color: #202C45 !important;
 
 }
 
@@ -163,7 +164,6 @@ nav ul{
      width:40px;
      height: 40px;
      margin: 10px;
-   
      float: right;
      cursor: pointer;
     text-align: center;
@@ -216,20 +216,354 @@ nav ul{
   /* media query */
   
 
+  /* main start  */
+
 main{
- 
+
     flex-direction: column;
-  padding:150vh 0 ;
+    
+
+} 
+
+
+/* about us  */
+.all-about-us{
+  height: 70vh;
+  padding: 5vh 3%;
+  justify-content: space-around;
+  background-color: white;
+  order:0;
+}
+.all-about-us h4{
+ margin:2vh 0;
 }
 
-img{
-    height: 50vh;
-    width:80%;
-    margin:auto;
+
+.little-article-aboutus{
+  flex-direction: column;
+  width: 45%;
+  padding: 5vh 0;
+  font-family: sans-serif;
+  color: rgb(43, 42, 42);
+  height: 60vh;
+  order: 0;
+
+}
+.darkblue-button{
+ height: 7vh;
+ width: 25%;
+ border:none;
+ outline: none;
+ background-color: #202C45;
+ color: #fff;
+ font-size: 1em;
+ margin: 2vh 0;
+ display: flex;
+ justify-content: space-around;
+ padding: 0 5px;
+ text-transform: capitalize;
+}
+
+.darkblue-button:hover{
+  background-color: rgb(12, 21, 43);
+  cursor: pointer;
+  
+
+}
+
+
+.trailer-div{
+order: 1;
+height: 60vh;
+width:50%;
+padding: 5vh 0;
+
+}
+
+/* about us  */
+
+
+/* diagnostics  */
+
+.diagnostics{
+
+  height: 42.5vh;
+  width: 100%;
+  order: 1;
+  background-color: rgba(32, 44, 69, 0.9);
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 4%;
+}
+
+.diagnostics-box{
+
+
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 2%;
+  color: aliceblue;
+}
+
+.diagnostics-box i{
+  font-size: 2.5em;
+  color:rgb(253, 0, 84);
+
+
+}
+.diagnostics-box p{
+
+font-size: 0.9em;
+text-transform: uppercase;
+font-family:'Open Sans', sans-serif;
+font-weight: 550;
+margin-top: 3vh;
+
+
+}
+.diagnostics-box span{
+
+font-size: 3em;
+font-family:'Open Sans', sans-serif;
+margin-top: 3vh;
 }
 
 
 
+/* diagnostics  */
+
+
+/* tachers */
+
+.teachers{
+  order: 2;
+  flex-direction: column;
+  background-color:#fff;
+  padding: 3%;
+}
+.teachers span{
+color: black;
+border-bottom: 2px red solid;
+}
+.teachers h2{
+ width: 100%;
+ font-family: 'open-sans',sans-serif;
+ font-weight: 300;
+ color: rgba(228, 13, 13, 0.918);
+ font-size: 2em;
+ padding-left: 3.5%;
+}
+.teachers h4{
+ width: 100%;
+ font-family: 'open-sans',sans-serif;
+ font-weight: 300;
+ color: rgba(228, 13, 13, 0.918);
+ font-size: 1.2em;
+ padding:0 3%;
+ height: 4vh;
+}
+
+.teachers-container{
+
+  height: auto;
+      width: 100%;
+     display: grid;
+     grid-template-columns: 21% 21% 21% 21%;
+     justify-content: space-around;
+     padding: 3vh 1%;
+
+}
+
+.teacher-box{
+ height: 70vh;
+ background-color: rgb(238, 237, 237);
+ display: flex;
+ flex-direction: column;
+ border-bottom: 2px rgb(253, 0, 84) solid;
+ margin: 3vh 0;
+ 
+}
+
+
+
+.teacher-box p{
+height: 13vh;
+padding: 0 2%;
+}
+
+
+.teacher-box img{
+ width: 100%;
+ height: 45vh;
+
+}
+
+
+
+.teacher-details{
+  background-color: #202C45;
+  color: #fff;
+  width: 35%;
+  font-size: small;
+  border: none;
+  outline: none;
+ }
+ .teacher-details:hover{
+  background-color: rgb(12, 21, 43);
+cursor: pointer;
+
+ }
+ .social-icon-teacher:hover{
+  background-color: rgb(12, 21, 43);
+  cursor: pointer;
+}
+
+
+ .teacher-social-icons{
+    justify-content: space-around;
+    padding: 2vh 2%;
+ } 
+
+ .teacher-social-icons a{
+    text-decoration: none;
+    color: #fff;
+ } 
+.social-icon-teacher{
+ border-radius: 100%;
+ background-color: #202C45;
+ height: 5vh;
+ width: 2.4em;
+ text-align: center;
+ padding: 1.1vh;
+ font-size: 0.9em;
+}
+
+
+
+
+/* tachers */
+
+
+
+
+
+@media only screen and (max-width: 1056px) { 
+
+  /* about us */
+  .all-about-us{
+   flex-direction: column;
+  }
+
+  .trailer-div{
+
+    height: 100%;
+    width:100%;
+    padding: 5vh 5%;
+    
+    }
+    .trailer{
+    height: 100%;
+    width: 100%;
+
+    }
+
+    .all-about-us{
+      height: 130vh;
+     
+    }
+ 
+    .little-article-aboutus{
+      width: 100%;
+      height: 80vh;
+      padding: 5vh 5%;
+      margin: 5vh 0;
+
+     
+    
+    }
+
+    .darkblue-button{
+    width: 40%;
+    justify-content: space-around;
+     }/* about us  */
+
+     
+
+     
+     /* diagnostics  */
+   
+     .diagnostics{
+      flex-direction: column;
+      height: auto;
+    
+    }
+     .diagnostics-box{
+      flex-direction: column;
+      width: 100%;
+    
+    }
+   
+
+     /* diagnostics */
+
+
+
+
+
+
+}/* media query */
+
+  
+@media screen and (max-width:1050px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 40% 40% ;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+}
+@media screen and (max-width:720px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 70%;
+       justify-content: space-around;
+       padding: 3vh 15%;
+  
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 95%;
+       justify-content: space-around;
+       padding: 3vh 2.5%;
+  
+  }
+}
+
+
+
+
+
+/* main end  */
+
+
+
+
+/* footer start  */
 footer{
 
   display: flex;
@@ -395,7 +729,7 @@ justify-content: space-between;
 }
 .footer-box2 p{
   text-decoration: none;
-  color:#7c6767 ;
+  color:#8d8c8c ;
   margin-bottom: 2vh;
   font-size: 1em;
   font-weight: 600;
@@ -427,10 +761,11 @@ flex-direction: column;
 #socialn-icons{
 
   color: rgba(128, 126, 126, 0.8);
-  font-size: 2.5vh;
+  font-size: 2.3vh;
   font-weight: 550;
  
 }
+
 #socialn-icons:hover{
 color: #fff;
 transition: 300ms;
@@ -440,7 +775,7 @@ transition: 300ms;
   
   border: 1px rgba(104, 104, 104, 0.8) solid;
   text-align: center;
-  padding: 1vh;
+  padding: 1.1vh;
 cursor: pointer;
   width: 5vh;
   height: 5vh;
@@ -488,6 +823,12 @@ font-weight: 550;
 cursor: pointer;
 font-size: 0.9em;
 
+}
+
+.get-email-button:hover{
+
+  transition: 300ms;
+  text-shadow: 2px 2px 14px rgba(255, 255, 255, 1);
 }
 
 /* footer box 2 end  */
@@ -602,6 +943,22 @@ width: 30%;
 
 }
 
+#socialn-icons{
+
+  color: rgba(128, 126, 126, 0.8);
+  font-size: 4vh;
+  font-weight: 550;
+ 
+}
+
+.social-icon-box{
+  
+
+  padding: 1.1vh;
+  width: 7vh;
+  height: 7vh;
+}
+
 .footer-box3{
   height: auto;
   font-size: 12px;
@@ -620,6 +977,21 @@ width: 100%;
  
 }
 
+.feed-text{
+   width: 90%;
+   height: auto;
+ 
+   
+  }
+  
+  .footer-feed-area i{
+   width:10%;
+   
+  }
+  
+.footer-feed-area{
+  padding-left: 13%;
+}
 
 
 
