@@ -433,10 +433,10 @@ cursor: pointer;
  border-radius: 100%;
  background-color: #202C45;
  height: 5vh;
- width: 2.4em;
+ width: 14%;
  text-align: center;
  padding: 1.1vh;
- font-size: 0.9em;
+ font-size: 2vh;
 }
 
 
@@ -449,6 +449,8 @@ cursor: pointer;
 
 
 @media only screen and (max-width: 1056px) { 
+
+
 
   /* about us */
   .all-about-us{
