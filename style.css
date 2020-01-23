@@ -48,23 +48,23 @@ background-color: #202C45 !important;
 .socialbar{
     display: flex;
     width: 100%;
-    height: 6vh;
+    height: 40px;
     background-color: rgba(226, 13, 41, 0.932);
 }
 
 .logo{
     display: flex;
     width: 100%;
-    height: 12.5vh;
+    height: 92px;
     padding: 0 10%;
     background-color: rgb(232, 245, 177);
 }
 
 nav{
-    padding: 2.2vh 0;
+    padding: 20px 0;
     display: flex;
     width: 100%;
-    height: 11.5vh;
+    height: 88px;
     background-color: #202C45 !important;
     justify-content: space-around;
     border-bottom: 2px groove red;
@@ -89,7 +89,7 @@ nav ul{
   text-decoration: none;
   display: block;
   color: #fff;
-  font-size: 0.9em;
+  font-size: 15px;
   font-family: sans-serif;
   text-transform: capitalize;
   }
@@ -228,8 +228,8 @@ main{
 
 /* about us  */
 .all-about-us{
-  height: 70vh;
-  padding: 5vh 3%;
+  height: 535px;
+  padding: 38px 3%;
   justify-content: space-around;
   background-color: white;
   order:0;
@@ -242,21 +242,21 @@ main{
 .little-article-aboutus{
   flex-direction: column;
   width: 45%;
-  padding: 5vh 0;
+  padding: 38px 0;
   font-family: sans-serif;
   color: rgb(43, 42, 42);
-  height: 60vh;
+  height: 456px;
   order: 0;
 
 }
 .darkblue-button{
- height: 7vh;
+ height: 52px;
  width: 25%;
  border:none;
  outline: none;
  background-color: #202C45;
  color: #fff;
- font-size: 1em;
+ font-size: 16px;
  margin: 2vh 0;
  display: flex;
  justify-content: space-around;
@@ -274,9 +274,9 @@ main{
 
 .trailer-div{
 order: 1;
-height: 60vh;
+height: 456px;
 width:50%;
-padding: 5vh 0;
+padding: 38px 0;
 
 }
 
@@ -287,7 +287,7 @@ padding: 5vh 0;
 
 .diagnostics{
 
-  height: 42.5vh;
+  height: 325px;
   width: 100%;
   order: 1;
   background-color: rgba(32, 44, 69, 0.9);
@@ -302,7 +302,7 @@ padding: 5vh 0;
   width: 20%;
   display: flex;
   flex-direction: column;
-  padding: 10vh 2%;
+  padding: 76px 2%;
   color: aliceblue;
 }
 
@@ -361,7 +361,7 @@ border-bottom: 2px red solid;
  color: rgba(228, 13, 13, 0.918);
  font-size: 1.2em;
  padding:0 3%;
- height: 4vh;
+ height: 30px;
 }
 
 .teachers-container{
@@ -371,10 +371,9 @@ border-bottom: 2px red solid;
      display: grid;
      grid-template-columns: 21% 21% 21% 21%;
      justify-content: space-around;
-     padding: 3vh 1%;
+     padding: 24px 1%;
 
 }
-
 
 
 @media screen and (max-width:1150px) {
@@ -427,6 +426,8 @@ border-bottom: 2px red solid;
        padding: 3vh 2.5%;
   
   }
+
+
 }
 
 
@@ -441,7 +442,7 @@ border-bottom: 2px red solid;
     height: auto;
         width: 100%;
        display: grid;
-       grid-template-columns: 38vh 38vh 38vh 38vh ;
+       grid-template-columns: 340px  340px 340px 340px ;
        grid-gap: 3vh;
        justify-content: space-around;
        padding: 3vh 5%;
@@ -455,7 +456,7 @@ border-bottom: 2px red solid;
       height: auto;
           width: 100%;
          display: grid;
-         grid-template-columns: 35vh 35vh 35vh 35vh ;
+         grid-template-columns: 330px 330px 330px 330px ;
          grid-gap: 3vh;
          justify-content: space-around;
          padding: 3vh 5%;
@@ -469,7 +470,7 @@ border-bottom: 2px red solid;
     height: auto;
         width: 100%;
        display: grid;
-       grid-template-columns: 38vh 38vh 38vh;
+       grid-template-columns: 330px 330px 330px ;
        grid-gap: 3vh;
        justify-content: space-around;
        padding: 3vh 5%;
@@ -477,13 +478,13 @@ border-bottom: 2px red solid;
   }
 }
 
-  @media screen and (max-width:1350px) {
+  @media screen and (max-width:1200px) {
   .teachers-container{
 
     height: auto;
         width: 100%;
        display: grid;
-       grid-template-columns: 45vh 45vh;
+       grid-template-columns: 350px 350px;
        grid-gap: 3vh;
        justify-content: space-around;
        padding: 3vh 5%;
@@ -491,7 +492,7 @@ border-bottom: 2px red solid;
   }
 
   .teacher-box{
-    height: 80vh;
+    height: 520px;
     background-color: rgb(238, 237, 237);
     display: flex;
     flex-direction: column;
@@ -509,7 +510,7 @@ border-bottom: 2px red solid;
     height: auto;
         width: 100%;
        display: grid;
-       grid-template-columns: 50vh;
+       grid-template-columns: 400px;
        grid-gap: 3vh;
        justify-content: space-around;
        padding: 3vh 5%;
@@ -531,6 +532,36 @@ border-bottom: 2px red solid;
 
 }
 
+@media (min-height: 1366px) and (max-width: 1350px) { /* ipad pro  */
+ 
+ 
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 330px;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 24px 5%;
+  
+  }
+
+  .teacher-box{
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px rgb(253, 0, 84) solid;
+    margin: 3vh 0;
+    
+   }
+
+
+
+
+
+}
+
 
 /* hd responsive  */
 
@@ -542,7 +573,7 @@ border-bottom: 2px red solid;
 
 
 .teacher-box{
- height: 70vh;
+ height: 520px;
  background-color: rgb(238, 237, 237);
  display: flex;
  flex-direction: column;
@@ -554,20 +585,21 @@ border-bottom: 2px red solid;
 
 
 .teacher-box p{
-height: 13vh;
+height:100px;
 padding: 0 2%;
 }
 
 
 .teacher-box img{
  width: 100%;
- height: 45vh;
+ height: 320px;
 
 }
 
 
 
 .teacher-details{
+  height: 38px;
   background-color: #202C45;
   color: #fff;
   width: 35%;
@@ -588,7 +620,7 @@ cursor: pointer;
 
  .teacher-social-icons{
     justify-content: space-around;
-    padding: 2vh 2%;
+    padding: 16px 2%;
  } 
 
  .teacher-social-icons a{
@@ -598,11 +630,11 @@ cursor: pointer;
 .social-icon-teacher{
  border-radius: 100%;
  background-color: #202C45;
- height: 5vh;
+ height: 36px;
  width: 14%;
  text-align: center;
- padding: 1.1vh;
- font-size: 2vh;
+ padding: 8px;
+ font-size:15px;
 }
 
 
@@ -709,9 +741,9 @@ footer{
 
 .footer-box1{
   order: 1;
-height: 50vh;
+height: 380px;
 width: 100%;
-padding: 3vh 0;
+padding: 24px 0;
 display: flex;
 justify-content: space-around;
 border-bottom: 1px rgba(128, 128, 128, 0.336) dotted;
@@ -720,7 +752,7 @@ border-bottom: 1px rgba(128, 128, 128, 0.336) dotted;
 
 .footer-box1-item{
 
-height: 40vh;
+height: 305px;
 width:24% ;
 display: flex;
 flex-direction: column;
@@ -736,7 +768,7 @@ color: seashell;
 text-align: center;
 font-family: 'Open Sans', sans-serif;
 font-weight: 100;
-margin-bottom: 2.5vh;
+margin-bottom: 18px;
 }
 
 
@@ -744,7 +776,7 @@ margin-bottom: 2.5vh;
 
   font-size: 1.2em;
   border-bottom: 1px rgba(128, 128, 128, 0.336) dotted;
-  margin: 1vh 0;
+  margin: 7px 0;
   
 }
 .useful-link a{
@@ -753,16 +785,16 @@ color:#7a7979 ;
 }
 
 .logo-img{
-height: 7vh;
+height: 45px;
 width: 84%;
-margin: 2.5vh 8%;
+margin: 18px 8%;
 
 }
 
 .little-section{
   width: 84%;
   display: flex;
-  margin: 0.5vh 0;
+  margin: 4px 0;
   font-size: 1em;
 }
 
@@ -776,12 +808,12 @@ margin: 2.5vh 8%;
 
 .footer-feed-area{
 
-  max-height: 20vh;
+  max-height: 152px;
   width: 84%;
   font-size: 0.9em;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1vh;
+  margin-bottom: 8px;
 }
 
 
@@ -816,7 +848,7 @@ color: rgb(243, 70, 70);
 order: 1;
  width: 90%;
  height: auto;
- max-height: 15vh;
+ max-height: 115px;
  margin: 0;
  
 }
@@ -828,7 +860,7 @@ order: 1;
 
 
 .footer-feed-area i{
- height: 15vh;
+ height: 115px;
  width:10%;
 }
 
@@ -855,30 +887,30 @@ justify-content: space-between;
   color: aliceblue;
   font-family: sans-serif;
   font-weight: 500;
-  margin-bottom: 3vh;
+  margin-bottom: 24px;
   
   
 }
 .footer-box2 p{
   text-decoration: none;
   color:#8d8c8c ;
-  margin-bottom: 2vh;
+  margin-bottom: 15px;
   font-size: 1em;
   font-weight: 600;
   word-spacing: 4px;
 }
 
 .footer-box2-section1{
-  height: 30vh;
+  height: 228px;
   width: 20%;
-  padding: 6vh 2%;
+  padding: 46px 2%;
   
 }
 
 .footer-box2-section2{
-  height: 30vh;
+  height: 228px;
 width: 30%;
-padding:0 2% 13vh 2%;
+padding:0 2% 99px 2%;
 display: flex;
 flex-direction: column;
 }
@@ -893,7 +925,7 @@ flex-direction: column;
 #socialn-icons{
 
   color: rgba(128, 126, 126, 0.8);
-  font-size: 2.3vh;
+  font-size: 17.5px;
   font-weight: 550;
  
 }
@@ -907,10 +939,10 @@ transition: 300ms;
   
   border: 1px rgba(104, 104, 104, 0.8) solid;
   text-align: center;
-  padding: 1.1vh;
+  padding: 9px;
 cursor: pointer;
-  width: 5vh;
-  height: 5vh;
+  width: 38px;
+  height: 38px;
 }
 .social-icon-box:hover{
   background-color: rgba(155, 155, 155, 0.5);
@@ -922,9 +954,9 @@ cursor: pointer;
 
 
 .footer-box2-section3{
-  height: 30vh;
+  height: 228px;
 width: 45%;
-padding: 6vh 2%;
+padding: 46px 2%;
 
 }
 
@@ -932,7 +964,7 @@ padding: 6vh 2%;
 
 .get-email-input{
   width: 80%;
-  height: 7vh;
+  height:52px;
   background-color: white;
   color: #7c6767 ;
   font-size: 15px;
@@ -968,7 +1000,7 @@ font-size: 0.9em;
 
 .footer-box3{
   order: 3;
-height: 9vh;
+height: 70px;
 width: 100%;
 background-color: rgba(27, 26, 26, 0.6);
 border-radius: 15%;
@@ -979,7 +1011,7 @@ border-radius: 15%;
   color: rgba(104, 104, 104, 0.8);
   text-transform: capitalize;
   width: 70%;
-  padding: 3vh 20px;
+  padding: 24px 20px;
  
 }
 .customer-help{
@@ -987,7 +1019,7 @@ border-radius: 15%;
   color: rgba(119, 118, 118, 0.8);
   text-transform: capitalize;
   width: 30%;
-  padding: 3vh 20px;
+  padding: 24px 20px;
  
 }
 .customer-help a{
@@ -1024,7 +1056,7 @@ justify-content: space-around;
 
 .footer-box1-item{
   width: 100%;
-  margin: 8vh 0;
+  margin:60px 0;
   
 }
 
@@ -1043,14 +1075,14 @@ text-align: center;
 .footer-box2-section1{
 
   width: 100%;
-  padding: 6vh 2%;
+  padding: 46px 2%;
   
 }
 
 .footer-box2-section2{
 
 width: 100%;
-padding:6vh 2%;
+padding:46px 2%;
 }
 
 
@@ -1058,7 +1090,7 @@ padding:6vh 2%;
 .footer-box2-section3{
 
 width: 100%;
-padding: 6vh 2%;
+padding: 46px 2%;
 
 }
 
@@ -1078,7 +1110,7 @@ width: 30%;
 #socialn-icons{
 
   color: rgba(128, 126, 126, 0.8);
-  font-size: 4vh;
+  font-size: 25px;
   font-weight: 550;
  
 }
@@ -1087,8 +1119,8 @@ width: 30%;
   
 
   padding: 1.1vh;
-  width: 7vh;
-  height: 7vh;
+  width: 52px;
+  height: 52px;
 }
 
 .footer-box3{
