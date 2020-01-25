@@ -369,218 +369,30 @@ border-bottom: 2px red solid;
   height: auto;
       width: 100%;
      display: grid;
-     grid-template-columns: 21% 21% 21% 21%;
+     grid-template-columns: 260px 260px 260px 260px;
      justify-content: space-around;
      padding: 24px 1%;
 
 }
 
 
-@media screen and (max-width:1150px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 38vh 38vh 38vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-}
-
-@media screen and (max-width:920px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 41vh 41vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-}
-@media screen and (max-width:666px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 40vh;
-       justify-content: space-around;
-       padding: 3vh 15%;
-  
-  }
-}
-
-
-@media screen and (max-width:550px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 75%;
-       justify-content: space-around;
-       padding: 3vh 2.5%;
-  
-  }
-
-
-}
-
-
-
-
-
-
-/* hd responsive */
-@media (min-height: 800px) and (max-width: 1920px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 340px  340px 340px 340px ;
-       grid-gap: 3vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-
-
-  @media screen and (max-width:1750px) {
-    .teachers-container{
-  
-      height: auto;
-          width: 100%;
-         display: grid;
-         grid-template-columns: 330px 330px 330px 330px ;
-         grid-gap: 3vh;
-         justify-content: space-around;
-         padding: 3vh 5%;
-    
-    }
-  }
-
-  @media screen and (max-width:1620px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 330px 330px 330px ;
-       grid-gap: 3vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-}
-
-  @media screen and (max-width:1200px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 350px 350px;
-       grid-gap: 3vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-
-  .teacher-box{
-    height: 520px;
-    background-color: rgb(238, 237, 237);
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px rgb(253, 0, 84) solid;
-    margin: 3vh 0;
-    
-   }
-
-
-}
-
-@media screen and (max-width:1000px) {
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 400px;
-       grid-gap: 3vh;
-       justify-content: space-around;
-       padding: 3vh 5%;
-  
-  }
-
-  .teacher-box{
-    height: 90vh;
-    background-color: rgb(238, 237, 237);
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px rgb(253, 0, 84) solid;
-    margin: 3vh 0;
-    
-   }
-}
-  
-
-
-}
-
-@media (min-height: 1366px) and (max-width: 1350px) { /* ipad pro  */
- 
- 
-  .teachers-container{
-
-    height: auto;
-        width: 100%;
-       display: grid;
-       grid-template-columns: 330px;
-       grid-gap: 3vh;
-       justify-content: space-around;
-       padding: 24px 5%;
-  
-  }
-
-  .teacher-box{
-    background-color: rgb(238, 237, 237);
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px rgb(253, 0, 84) solid;
-    margin: 3vh 0;
-    
-   }
-
-
-
-
-
-}
-
-
-/* hd responsive  */
-
-
-
-
-
-
-
-
 .teacher-box{
- height: 520px;
- background-color: rgb(238, 237, 237);
- display: flex;
- flex-direction: column;
- border-bottom: 2px rgb(253, 0, 84) solid;
- margin: 3vh 0;
+  height: 510px;
+  background-color: rgb(238, 237, 237);
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px rgb(253, 0, 84) solid;
+  margin: 3vh 0;
+  
+ }
  
-}
+
+
+
+
+
+
+
 
 
 
@@ -592,7 +404,7 @@ padding: 0 2%;
 
 .teacher-box img{
  width: 100%;
- height: 320px;
+ height: 310px;
 
 }
 
@@ -633,7 +445,7 @@ cursor: pointer;
  height: 36px;
  width: 14%;
  text-align: center;
- padding: 8px;
+ padding: 6.1px;
  font-size:15px;
 }
 
@@ -650,75 +462,6 @@ cursor: pointer;
 
   }
 
-@media only screen and (max-width: 1056px) { 
-
-
-
-  /* about us */
-  .all-about-us{
-   flex-direction: column;
-  }
-
-  .trailer-div{
-
-    height: 100%;
-    width:100%;
-    padding: 5vh 5%;
-    
-    }
-    .trailer{
-    height: 100%;
-    width: 100%;
-
-    }
-
-    .all-about-us{
-      height: 130vh;
-     
-    }
- 
-    .little-article-aboutus{
-      width: 100%;
-      height: 80vh;
-      padding: 5vh 5%;
-      margin: 5vh 0;
-
-     
-    
-    }
-
-    .darkblue-button{
-    width: 40%;
-    justify-content: space-around;
-     }/* about us  */
-
-     
-
-     
-     /* diagnostics  */
-   
-     .diagnostics{
-      flex-direction: column;
-      height: auto;
-    
-    }
-     .diagnostics-box{
-      flex-direction: column;
-      width: 100%;
-    
-    }
-   
-
-     /* diagnostics */
-
-
-
-
-
-
-}/* media query */
-
-  
 
 
 
@@ -1159,4 +902,287 @@ width: 100%;
 
 
 
+}
+
+@media only screen and (max-width: 1056px) { 
+
+
+
+  /* about us */
+  .all-about-us{
+   flex-direction: column;
+  }
+
+  .trailer-div{
+
+    height: 100%;
+    width:100%;
+    padding: 5vh 5%;
+    
+    }
+    .trailer{
+    height: 100%;
+    width: 100%;
+
+    }
+
+    .all-about-us{
+      height: 130vh;
+     
+    }
+ 
+    .little-article-aboutus{
+      width: 100%;
+      height: 80vh;
+      padding: 5vh 5%;
+      margin: 5vh 0;
+
+     
+    
+    }
+
+    .darkblue-button{
+    width: 40%;
+    justify-content: space-around;
+     }/* about us  */
+
+     
+
+     
+     /* diagnostics  */
+   
+     .diagnostics{
+      flex-direction: column;
+      height: auto;
+    
+    }
+     .diagnostics-box{
+      flex-direction: column;
+      width: 100%;
+    
+    }
+   
+
+     /* diagnostics */
+
+
+
+
+
+
+}/* media query */
+
+  
+
+
+
+
+@media screen and (max-width:1150px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns:  280px 280px 280px;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 280px 280px;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+}
+@media screen and (max-width:666px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 290px;
+       justify-content: space-around;
+       padding: 3vh 15%;
+  
+  }
+}
+
+
+@media screen and (max-width:550px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 300px;
+       justify-content: space-around;
+       padding: 3vh 2.5%;
+  
+  }
+
+  .teacher-box{
+    height: 470px;
+  }
+
+
+}
+
+
+
+
+
+
+/* hd responsive */
+@media (min-height: 800px) and (max-width: 1920px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 340px  340px 340px 340px ;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+
+
+  @media screen and (max-width:1750px) {
+    .teachers-container{
+  
+      height: auto;
+          width: 100%;
+         display: grid;
+         grid-template-columns: 330px 330px 330px 330px ;
+         grid-gap: 3vh;
+         justify-content: space-around;
+         padding: 3vh 5%;
+    
+    }
+  }
+
+  @media screen and (max-width:1620px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 330px 330px 330px ;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+}
+
+  @media screen and (max-width:1200px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 350px 350px;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+
+  .teacher-box{
+    height: 520px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px rgb(253, 0, 84) solid;
+    margin: 3vh 0;
+    
+   }
+
+
+}
+
+@media screen and (max-width:1000px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 380px;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 3vh 5%;
+  
+  }
+
+  .teacher-box{
+    height:480px;
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px rgb(253, 0, 84) solid;
+    margin: 3vh 0;
+    padding: 0 5px;
+    
+   }
+
+}
+  
+
+
+}
+
+@media (min-height: 1366px) and (max-width: 1350px) { /* ipad pro  */
+ 
+ 
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 330px;
+       grid-gap: 3vh;
+       justify-content: space-around;
+       padding: 24px 5%;
+  
+  }
+
+  .teacher-box{
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px rgb(253, 0, 84) solid;
+    margin: 3vh 0;
+    
+   }
+
+
+
+
+
+}
+
+
+/* hd responsive  */
+
+
+
+@media screen and (min-width:2000px) {
+  .teachers-container{
+
+    height: auto;
+        width: 100%;
+       display: grid;
+       grid-template-columns: 21% 21% 21% 21%;
+       justify-content: space-around;
+       padding: 3vh 15%;
+  
+  }
 }
